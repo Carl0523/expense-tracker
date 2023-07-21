@@ -1,4 +1,3 @@
-import 'package:expense_tracker/my_theme.dart';
 import 'package:expense_tracker/widgets/expense_form/expense_form.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -21,7 +20,6 @@ class Home extends StatefulWidget {
 /// It's reponsible for updating the UI when needed.
 /// It has build method to defind the widget's UI
 class _HomeState extends State<Home> {
-
   final List<Expense> expenses = [];
 
   /// Add [expense] into the expenses list in order of data
